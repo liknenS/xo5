@@ -1,0 +1,12 @@
+.root {
+  width: 600px;
+  margin: auto;
+  background: lightblue;
+  height: 800px;
+
+  font-size: 30px;
+}
+body {
+  font-size: 30px;
+  background-color: #445;
+}

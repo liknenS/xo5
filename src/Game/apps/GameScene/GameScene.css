@@ -1,0 +1,33 @@
+.root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.gamePane {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.status {
+  height: 100px;
+  display: flex;
+  border-bottom: 2px solid gray;
+  justify-content: space-around;
+
+  .button {
+    font-size: 30px;
+    margin: 20px;
+    padding: 10px 30px;
+  }
+}
+
+.turn {
+  font-size: 50px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
